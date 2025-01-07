@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaShoppingCart } from "react-icons/fa"; // You can use any cart icon library
+// import { FaShoppingCart } from "react-icons/fa"; 
 import AOS from "aos"
 
 function ProductCard({ product, onAddCart }) {
   const [ripples, setRipples] = useState([]);
   const [cartAnimation, setCartAnimation] = useState(false);
 
-  // Handle ripple effect
+
   const handleRipple = (e) => {
     const rect = e.target.getBoundingClientRect();
     const size = Math.max(rect.width, rect.height);
@@ -17,11 +17,11 @@ function ProductCard({ product, onAddCart }) {
     const ripple = { x, y, size };
     setRipples((prev) => [...prev, ripple]);
 
-    // Add product to cart after ripple animation starts
+    
     setTimeout(() => {
       onAddCart(product);
-      setCartAnimation(true); // Trigger cart animation when item is added
-      setTimeout(() => setCartAnimation(false), 500); // Reset animation state after 500ms
+      setCartAnimation(true); 
+      setTimeout(() => setCartAnimation(false), 500); 
     }, 100);
   };
   AOS.init();
