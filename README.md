@@ -20,7 +20,7 @@ These animations enhance user experience, providing smooth transitions and inter
 <!-- About the project ends -->
 
 
-# Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
