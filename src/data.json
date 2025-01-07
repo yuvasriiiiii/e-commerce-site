@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "name": "Escada",
+    "price": 300,
+    "category":"Men",
+    "image": "/Assets/perfume-img1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Juliette",
+    "price": 500,
+    "category":"Women",
+    "image": "/Assets/perfume-img2.jpg"
+  },
+ 
+  {
+    "id": 3,
+    "name": "Whites",
+    "price": 450,
+    "category":"Men",
+    "image": "/Assets/perfume-img4.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Jomalone",
+    "price": 480,
+    "category":"Women",
+    "image": "/Assets/perfume-img5.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Acqua Di",
+    "price": 800,
+    "category":"Unisex",
+    "image": "/Assets/perfume-img6.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Brownie",
+    "price": 700,
+    "category":"Men",
+    "image": "/Assets/perfume-img7.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Seentii",
+    "price": 900,
+    "category":"Women",
+    "image": "/Assets/perfume-img8.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Verge",
+    "price": 700,
+    "category":"Women",
+    "image": "/Assets/perfume-img9.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Loewe",
+    "price": 600,
+    "category":"Women",
+    "image": "/Assets/perfume-img10.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Roberto",
+    "price": 300,
+    "category":"Unisex",
+    "image": "/Assets/perfume-img11.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Hunk",
+    "price": 680,
+    "category":"Men",
+    "image": "/Assets/perfume-img12.jpg"
+  },
+  
+  {
+    "id": 12,
+    "name": "Jawat",
+    "price": 200,
+    "category":"Women",
+    "image": "/Assets/perfume-img13.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Rawas",
+    "price": 700,
+    "category":"Women",
+    "image": "/Assets/perfume-img14.jpg"
+  }
+ 
+]
